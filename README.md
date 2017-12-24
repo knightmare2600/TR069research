@@ -111,13 +111,13 @@ Using virt-manager, create a VM with the following specs:
 
 * 128MB RAM
 * 50M HDD
-* NIC#1 RTL8139 connected to macvtap0 which gives this node a 192.168.10.0/24 IP from you DHCP server
-* NIC#2 e1000   connected to vnet0 switch 192.168.88.254/24 the green (LAN) interface of the rotuer node
+* NIC#1 ```RTL8139``` connected to ```macvtap0``` which gives this node a ```192.168.10.0/24``` IP from you DHCP server
+* NIC#2 ```e1000```   connected to ```vnet0``` switch ```192.168.88.254/24``` the green (LAN) interface of the rotuer node
 * CD-ROM connected to ```mikrotik-6.39.3.iso``` 
-* Boot Order CD-ROM -> HDD
+* Boot Order ```CD-ROM -> HDD```
 * VM set to start on boot
 
-NB: A good way to remember which NIC is which, is to rememebr the three R's: Realtek NIC / Red Interface / Routable ot the internet
+NB: A good way to remember which NIC is which, is to remember the three R's: Realtek NIC / Red Interface / Routable ot the internet
 
 #### Setting up Mikrotek
 
