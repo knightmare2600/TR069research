@@ -368,4 +368,6 @@ Click Advanced provisioning > Job > Job overview, select the newly created job a
 
 ### Wrap-up
 
+A final suggestion from me, as with all thse sortso f security VMs, be they form @vulnhub or @HTB or wherever, set the disk to non-persistent so yo can knock them down over and over again...
+
 On that note, my thanks to Darren Martyn for an interesting talk, as well as Mikrotik for giving dmeo licenses at no cost, and all the community out there hacking, breaking and security things.
