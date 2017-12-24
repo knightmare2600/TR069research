@@ -4,7 +4,7 @@ This repo contains information on setting up a FreeACS server with ibvirt  and a
 
 ## Background 
 
-This guide and repo allows research into TR-069 as covered by [@info_doz] (https://twitter.com/@info_dox) at B-Slides Edinburgh. This repo is for others who wish to wargame out, or build upon his excellent work.
+This guide and repo allows research into TR-069 as covered by [@info_dox](https://twitter.com/@info_dox) at B-Slides Edinburgh. This repo is for others who wish to wargame out, or build upon his excellent work.
 
 
 More information on that, and a video of his talk, can be found [here](https://www.youtube.com/watch?v=rGIVx0HNOfk&list=PLhZJ3xYqiM4iyBXQVcFC7mO5Xstg6IwBN&index=12)
