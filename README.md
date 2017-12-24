@@ -285,6 +285,7 @@ Reboot, yes? [y/N]:
 y
 system will reboot shortly
 Connection closed by foreign host.
+```
 
 On reboot:
 
