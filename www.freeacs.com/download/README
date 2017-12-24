@@ -1,0 +1,9 @@
+FIRST TIME INSTALL
+==================
+To install FreeACS run the script "install-freeacs-ubuntu.sh" on your Ubuntu server. The script has been tested on Ubuntu 12.04 LTS and 14.04 LTS, but it may work fine on other versions as well.
+
+UPGRADE OF WAR-FILES
+====================
+If new WAR files have been released, run the same script (as for first time install) again, it will give you choices throughout the install process to upgrade the installation.
+
+
