@@ -32,7 +32,7 @@ Create a VM of reasonable size. I went with:
 * 1GB RAM
 * 10GB SCSI HDD
 * 1 x VMXNET3 NIC
-* hostname ```free-acs.example.com``` on ```192.168.10.10``` provisioned with a fixed lease in DHCP.
+* hostname ```free-acs.example.com``` on ```192.168.10.9``` provisioned with a fixed lease in DHCP.
 
 Do a basic Ubuntu install, my preference is to use LVM, as this makes splitting out /var /tmp /home, etc. much easier.
 
@@ -111,7 +111,7 @@ Using virt-manager, create a VM with the following specs:
 
 * 128MB RAM
 * 50M HDD
-* NIC#1 ```RTL8139``` connected to ```macvtap0``` which gives this node a ```192.168.10.0/24``` IP from you DHCP server
+* NIC#1 ```RTL8139``` connected to ```macvtap0``` which gives this node a ```192.168.10.10/24``` IP from you DHCP server
 * NIC#2 ```e1000```   connected to ```vnet0``` switch ```192.168.88.254/24``` the green (LAN) interface of the rotuer node
 * CD-ROM connected to ```mikrotik-6.39.3.iso``` 
 * Boot Order ```CD-ROM -> HDD```
