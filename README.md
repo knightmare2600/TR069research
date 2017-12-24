@@ -84,7 +84,7 @@ After some time, the script will complete and we can proceed to the post-install
 
 As outlined in the talk, one could easily make these edits via a sed or two. I'll do this manually for posterity.
 
-First, edit ```/var/lib/tomcat7/conf/catalina.properties``` and find the string ```common.loader``` then append ```,${catalina.base}/common,${catalina.base}/common/*.properties`` save the file and exit`
+First, edit ```/var/lib/tomcat7/conf/catalina.properties``` and find the string ```common.loader``` then append ```,${catalina.base}/common,${catalina.base}/common/*.properties``` save the file and exit
 
 Second, edit ```/etc/init.d/tomcat7``` appending the line so it reads ```# Required-Start:    $local_fs $remote_fs $network $mysql``` then save the file and exit.
 
