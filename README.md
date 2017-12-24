@@ -313,6 +313,8 @@ Flags: X - disabled
 The following Script will allow the Mikrotek to check in with the server freeacs.example.com
 
 ### Set TR069 Username to Ether1 mac address
+
+```
 [admin@MikroTik] /system script
 add name=identity owner=admin policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive source="delay 10;\
 \n:local macaddress [/interface get ether1 mac-address]\
