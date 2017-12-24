@@ -19,7 +19,7 @@ To begin, you will need to collect some files:
 * mikrotik-6.39.3.iso				SHA256: 22D6B47F15FA8B0E15728C49086390AF30FE1C476847F0F1878A8FB624DB022E
 * FreeACS files - a copy is included in this repo
 * Virtual platform of choice. Ill be using VMWare ESXi here
-* A demo Mikrotik license key [from here] (https://wiki.mikrotik.com/wiki/Manual:License)
+* A demo Mikrotik license key [from here](https://wiki.mikrotik.com/wiki/Manual:License)
 
 A fair bit of this information was cleaned from the user TheKitchen on the [mikrotik](https://forum.mikrotik.com) forums so thank you to him/her.
 
