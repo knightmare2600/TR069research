@@ -159,7 +159,8 @@ Our next step is to configure the router for inital setup. Laziness being the mo
 iAfter reboot, we can check the IP of the device:
 
 ```
-[admin@MikroTik] > ip address print                                                                                                                    Flags: X - disabled, I - invalid, D - dynamic
+[admin@MikroTik] > ip address print
+Flags: X - disabled, I - invalid, D - dynamic
  #   ADDRESS            NETWORK         INTERFACE
  0 D 192.168.10.10/24   192.168.10.0    ether1
  1   ;;; defconf
