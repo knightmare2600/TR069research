@@ -271,14 +271,14 @@ Once the package is uploaded, go back to the telnet session and confirm the file
 
 ```
 [admin@MikroTik] > /file print
- # NAME                                       TYPE                                   SIZE      CREATION-TIME
- 0 skins                                      directory                                        dec/24/2017 12:14:22
- 1 user-manager                               directory                                        dec/24/2017 12:53:36
- 2 user-manager/sqldb                         file                                   80.0KiB   dec/24/2017 12:14:57
- 3 user-manager/logsqldb                      file                                    6.0KiB   dec/24/2017 12:14:55
- 4 um-before-migration.tar                    .tar file                              15.5KiB   dec/24/2017 12:14:58
- 5 auto-before-reset.backup                   backup                                  9.7KiB   dec/24/2017 12:21:13
- 6 tr069-client-6.39.3.npk                    package                               128.1KiB   dec/24/2017 12:59:43
+ # NAME                                       TYPE                              SIZE      CREATION-TIME
+ 0 skins                                      directory                                   dec/24/2017 12:14:22
+ 1 user-manager                               directory                                   dec/24/2017 12:53:36
+ 2 user-manager/sqldb                         file                              80.0KiB   dec/24/2017 12:14:57
+ 3 user-manager/logsqldb                      file                               6.0KiB   dec/24/2017 12:14:55
+ 4 um-before-migration.tar                    .tar file                         15.5KiB   dec/24/2017 12:14:58
+ 5 auto-before-reset.backup                   backup                             9.7KiB   dec/24/2017 12:21:13
+ 6 tr069-client-6.39.3.npk                    package                          128.1KiB   dec/24/2017 12:59:43
 
 [admin@MikroTik] > /system reboot
 Reboot, yes? [y/N]:
@@ -292,20 +292,20 @@ On reboot:
 ```
 [admin@MikroTik] > /system package print
 Flags: X - disabled
- #   NAME                                                        VERSION                                                       SCHEDULED
- 0   dhcp                                                        6.39.3
- 1   security                                                    6.39.3
- 2   mpls                                                        6.39.3
- 3   hotspot                                                     6.39.3
- 4   ntp                                                         6.39.3
- 5   gps                                                         6.39.3
- 6   lcd                                                         6.39.3
- 7   tr069-client                                                6.39.3
- 8   calea                                                       6.39.3
- 9   kvm                                                         6.39.3
-10   system                                                      6.39.3
-11   user-manager                                                6.39.3
-12   routing                                                     6.39.3
+ #   NAME                                     VERSION                           SCHEDULED
+ 0   dhcp                                     6.39.3
+ 1   security                                 6.39.3
+ 2   mpls                                     6.39.3
+ 3   hotspot                                  6.39.3
+ 4   ntp                                      6.39.3
+ 5   gps                                      6.39.3
+ 6   lcd                                      6.39.3
+ 7   tr069-client                             6.39.3
+ 8   calea                                    6.39.3
+ 9   kvm                                      6.39.3
+10   system                                   6.39.3
+11   user-manager                             6.39.3
+12   routing                                  6.39.3
 ```
 
 #### Enable TR-069 on client router
