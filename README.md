@@ -117,7 +117,7 @@ Using virt-manager, create a VM with the following specs:
 * Boot Order ```CD-ROM -> HDD```
 * VM set to start on boot
 
-NB: A good way to remember which NIC is which, is to remember the three R's: Realtek NIC / Red Interface / Routable ot the internet
+NB: A good way to remember which NIC is which, is to remember the three R's: Realtek NIC / Red Interface / Routable to the internet
 
 #### Setting up Mikrotek
 
